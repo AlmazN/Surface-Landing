@@ -1,0 +1,279 @@
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("../fonts/ProximaNovaRegular.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url("../fonts/ProximaNovaBold.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova Light";
+  src: url("../fonts/ProximaNovaLight.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova Semibold";
+  src: url("../fonts/ProximaNovaSemibold.otf");
+}
+
+body {
+  margin: 0;
+  font-family: "Proxima Nova Regular", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #000;
+}
+
+h1 {
+  font-family: "Proxima Nova Bold";
+  font-size: 90px;
+  line-height: 1.1;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Proxima Nova Bold";
+  font-size: 90px;
+  line-height: 1.1;
+  color: #e7e7e7;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 70px;
+}
+
+h3 {
+  font-family: "Proxima Nova Bold";
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #c1c1c1;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+header {
+  box-sizing: border-box;
+  background-image: url(../img/header-bg.png);
+  background-color: #0a0d35;
+  width: 100%;
+  min-height: 960px;
+  padding: 54px 170px 110px 192px;
+}
+
+header .logo-block span {
+  float: right;
+  font-family: "Proxima Nova Light";
+  font-size: 14px;
+  line-height: 2.42;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+header .pseudo-h1 {
+  font-family: "Proxima Nova Bold";
+  font-size: 90px;
+  line-height: 1.03;
+  letter-spacing: 4px;
+  color: #fff;
+  padding: 0;
+}
+
+header .logo-block {
+  margin-bottom: 290px;
+}
+
+header .pseudo-h1:nth-child(2) {
+  z-index: 3;
+}
+
+header .pseudo-h1:nth-child(3) {
+  position: relative;
+  text-align: right;
+  padding-right: 8px;
+  z-index: 1;
+}
+
+header .pseudo-h1:nth-child(3)::before {
+  position: absolute;
+  top: 28px;
+  left: 438px;
+  content: "";
+  width: 90px;
+  height: 6px;
+  background-color: #5e3db3;
+  -webkit-transform: rotate(-52deg);
+  transform: rotate(-52deg);
+  z-index: 1;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  padding-right: 5px;
+  margin-top: 2px;
+} 
+
+header ul li {
+  display: inline-block;
+  font-family: "Proxima Nova Light";
+  font-size: 14px;
+  color: #916ded;
+  line-height: 1;
+  letter-spacing: 0;
+  padding-left: 50px;
+}
+
+header .button-wrapper {
+  text-align: center;
+}
+
+header a {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 311px;
+	height: 77px;
+  margin: 0 20px;
+  margin-top: 175px;
+  padding-top: 25px;
+	border-radius: 39px 38px 38px 39px/38px;
+  background-color: rgba(94, 61, 179, 0.7);
+	box-shadow: 0 16px 24px #0a0d35;
+  text-align: left;
+  font-family: "Proxima Nova Light";
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header a:first-child {
+  padding-left: 100px;
+}
+
+header a:first-child::before {
+  position: absolute;
+  content: "";
+  top: 18px;
+  left: 38px;
+  width: 33px;
+  height: 37px;
+  background-image: url(../img/Icon-Apple.png);
+}
+
+header a:last-child {
+  padding-left: 126px;
+}
+
+header a:last-child::before {
+  position: absolute;
+  content: "";
+  top: 18px;
+  left: 60px;
+  width: 33px;
+  height: 37px;
+  background-image: url(../img/Icon-GooglePlay.png);
+}
+
+header a span {
+  font-family: "Proxima Nova Semibold";
+}
+
+main .athlets-block {
+  position: relative;
+  padding-top: 95px;
+}
+
+main .athlets-block::before {
+  position: absolute;
+  content: "";
+  top: 41px;
+  left: 300px;
+  width: 696px;
+  height: 950px;
+  background-image: url(../img/athlets-bg.png);
+}
+
+.athlets-block > div {
+  padding-left: 1010px;
+  padding-bottom: 55px;
+}
+
+main .h3-number {
+  position: relative;
+  display: inline-block;
+  font-family: "Proxima Nova Bold";
+  font-size: 18px;
+  color: #000;
+  line-height: 1;
+  letter-spacing: 0px;
+  vertical-align: top;
+  margin-right: 9px;
+  margin-top: 2px;
+}
+
+main .h3-number::before {
+  position: absolute;
+  content: "";
+  bottom: -10px;
+  left: 0;
+  width: 21px;
+	height: 5px;
+	border-radius: 2px;
+	background-color: #5e3db3;
+}
+
+.athlets-block .block-02 {
+  background-color: #f6f4fb;
+  padding-top: 60px;
+}
+
+.athlets-block .block-03 {
+  background-color: #5e3db3;
+  padding-top: 90px;
+  color: #fff;
+  padding-bottom: 100px;
+}
+
+.block-03 .h3-number::before {
+  background-color: #fff;
+}
+
+main .players-block {
+  position: relative;
+  padding-top: 95px;
+}
+
+.players-block > div {
+  padding-left: 320px;
+  padding-bottom: 55px;
+}
+
+.players-block .block-02 {
+  background-color: #f6f4fb;
+  padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+
