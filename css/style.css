@@ -259,15 +259,157 @@ main .players-block {
   padding-top: 95px;
 }
 
+.players-block::before {
+  position: absolute;
+  content: "";
+  top: -30px;
+  right: 110px;
+  width: 991px;
+  height: 815px;
+  background-image: url(../img/players-bg.png);
+}
+
 .players-block > div {
   padding-left: 320px;
-  padding-bottom: 55px;
+}
+
+.players-block .block-01 {
+  padding-bottom: 65px;
 }
 
 .players-block .block-02 {
   background-color: #f6f4fb;
   padding-top: 60px;
+  padding-bottom: 65px;
 }
+
+.players-block .block-02 h3 {
+  margin-bottom: 30px;
+}
+
+.players-block .block-03 {
+  background-color: #0a0d35;
+  color: #fff;
+  padding-top: 95px;
+  padding-bottom: 90px;
+}
+
+.players-block .block-03 .h3-number {
+  color: #9270e9;
+}
+
+.main-content .block-01 {
+  position: relative;
+  padding-top: 240px;
+  padding-left: 1080px;
+  min-height: 490px;
+  background: url(../img/beActive-img.jpg) no-repeat;
+}
+
+.main-content .block-01 h2 {
+  margin-bottom: 93px;
+}
+
+.main-content p {
+  position: relative;
+  display: inline-block;
+  padding-left: 5px;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 1.3px;
+}
+
+.main-content .block-01 p:last-of-type::before {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  bottom: -94px;
+  left: 7px;
+  width: 22px;
+	height: 5px;
+	border-radius: 2px;
+	background-color: #5e3db3;
+}
+
+.main-content .ab-block {
+  position: absolute;
+  top: 29%;
+  left: 50%;
+  width: 168px;
+  height: 155px;
+  margin-left: -78px;
+  background-color: #5e3db3;
+  text-align: center;
+  font-size: 24px;
+  line-height: 140px;
+  letter-spacing: 1px;
+  font-family: "Proxima Nova Bold";
+  color: #fff;
+}
+
+.ab-block::before {
+  position: absolute;
+  content: "";
+  bottom: 40%;
+  left: 50%;
+  margin-left: -11px;
+  width: 22px;
+	height: 5px;
+	border-radius: 2px;
+	background-color: rgba(255,255,255, 0.3);
+}
+
+.main-content .block-02 {
+  position: relative;
+  padding-left: 185px;
+  padding-top: 240px;
+  min-height: 490px;
+  background: url(../img/findContacts-img.jpg) no-repeat 960px 0;
+}
+
+.main-content .block-02 h2 {
+  margin-bottom: 55px;
+}
+
+.main-content .block-02 p:last-of-type::before {
+  position: absolute;
+  content: "";
+  bottom: -122px;
+  left: 7px;
+  width: 22px;
+	height: 5px;
+	border-radius: 2px;
+	background-color: #5e3db3;
+}
+
+.main-content .block-03 {
+  position: relative;
+  padding-top: 240px;
+  padding-left: 1080px;
+  min-height: 490px;
+  background: url(../img/wortIt-img.jpg) no-repeat;
+}
+
+.main-content .block-03 h2 {
+  margin-bottom: 89px;
+}
+
+.main-content .block-03 p:last-of-type::before {
+  position: absolute;
+  content: "";
+  bottom: -97px;
+  left: 7px;
+  width: 22px;
+	height: 5px;
+	border-radius: 2px;
+	background-color: #5e3db3;
+}
+
+footer {
+  background-image: url(../img/footer-bg.jpg);
+}
+
+
 
 
 
